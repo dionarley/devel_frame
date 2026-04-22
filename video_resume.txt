@@ -1,0 +1,8 @@
+Pontos principais abordados:
+
+O custo da IA: Montano alerta que o uso de IAs pode se tornar proibitivo em termos de custo, e que as ferramentas atuais estão limitando o controle do usuário sobre os modelos (2:30 - 5:35).
+Qualidade do código gerado por IA: Ele propõe técnicas essenciais para validar o trabalho feito com auxílio de IA e garantir que fundamentos como performance e segurança não sejam negligenciados (7:53 - 12:21):
+Detector de N+1: Implementação de middlewares para monitorar o número de queries ao banco de dados por requisição.
+Detecção de Race Conditions: Uso de property-based testing (como Hypothesis ou fast-check) para encontrar falhas assíncronas.
+Prevenção de Memory Leaks: Utilização de ferramentas de profiling (como leak canary, pprof ou o heap snapshot do Chrome) para monitorar consumo de memória em produção.
+Arquitetura e Confiabilidade: Reforça que um desenvolvedor sênior precisa entender os tradeoffs de sua arquitetura e realizar testes de falha para garantir que o sistema sobreviva a imprevistos, como a queda de um banco de dados (12:48 - 13:30).
